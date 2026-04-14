@@ -178,9 +178,15 @@ section{padding:86px 5%}
 .cmeth{display:flex;gap:16px}
 .cico{width:48px;height:48px;background:var(--rust);display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0}
 .clabel{font-size:.58rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-weight:700;font-family:'Rajdhani',sans-serif;margin-bottom:5px}
-.cval{font-size:.95rem;color:#fff;font-weight:600}
-.cval a{color:#fff;transition:color .2s}
-.cval a:hover{color:var(--gold)}
+.cval{font-size:.95rem;color:#000;font-weight:700}
+.cval a{
+  color:#007BFF;   /* blue color */
+  font-weight:700; /* bold */
+  transition:color .2s;
+}
+.cval a:hover{
+  color:#0056b3;
+}
 .cform-wrap{background:var(--panel);padding:36px;border:1px solid rgba(255,255,255,.06)}
 .cftitle{font-family:'Bebas Neue',sans-serif;font-size:1.5rem;letter-spacing:2px;color:#fff;margin-bottom:22px}
 .cf{display:flex;flex-direction:column;gap:12px}
@@ -545,13 +551,17 @@ footer{background:#050810;padding:52px 5% 26px;border-top:2px solid var(--rust)}
     </div>
     <div class="fcol">
       <h4>Contact</h4>
-      <ul>
-        <li><a href="tel:+918688726052">+91 86887 26052</a></li>
-        <li><a href="tel:+917671050512">+91 76710 50512</a></li>
-        <li><a href="mailto:pzmeerindustries@gmail.com">pzmeerindustries@gmail.com</a></li>
-        <li><span style="color:var(--concrete);font-size:.78rem;line-height:1.7">Gagillapur, Dundigal,<br/>Gandimaisamma Mandal,<br/>Hyderabad – 500043</span></li>
-        <li><span style="color:var(--concrete);font-size:.78rem">Mon–Sat · 9 AM – 7 PM</span></li>
-      </ul>
+<ul>
+  <li>
+    <span class="cval">
+      <a href="tel:+918688726052">+91 86887 26052</a><br>
+      <a href="tel:+917671050512">+91 76710 50512</a>
+    </span>
+  </li>
+  <li><a href="mailto:pzmeerindustries@gmail.com">pzmeerindustries@gmail.com</a></li>
+  <li><span style="color:var(--concrete);font-size:.78rem;line-height:1.7">Gagillapur, Dundigal,<br/>Gandimaisamma Mandal,<br/>Hyderabad – 500043</span></li>
+  <li><span style="color:var(--concrete);font-size:.78rem">Mon–Sat · 9 AM – 7 PM</span></li>
+</ul>
     </div>
   </div>
   <div class="fbot">
