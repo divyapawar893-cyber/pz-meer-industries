@@ -7,7 +7,18 @@
 <meta name="description" content="PZ Meer Industries Pvt Ltd – Premium portable cabins, toilet cabins, shop cabins, farm cabins, tea/café cabins. GST registered. Hyderabad, Telangana. Call 8688726052."/>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet"/>
 <style>
-:root{--ink:#0a0f1a;--steel:#111928;--panel:#192234;--rust:#007bff;--orange:#3399ff;--gold:#00c6ff;--lime:#6dbf4a;--concrete:#c8c2b8;--white:#ffffff;--light:#f4f1ed}
+:root{
+--ink:#0a1a2f;        /* dark blue background */
+--steel:#0f2a44;
+--panel:#163a5c;
+--rust:#007bff;       /* main blue */
+--orange:#3399ff;     /* light blue */
+--gold:#66ccff;       /* highlight blue */
+--lime:#4da6ff;
+--concrete:#d6e6f2;   /* light text */
+--white:#ffffff;
+--light:#f4f9ff
+}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:'Barlow',sans-serif;background:var(--ink);color:var(--light);overflow-x:hidden}
@@ -60,11 +71,14 @@ h1 .a2{color:var(--rust);display:block}
 /* SECTIONS */
 section{padding:86px 5%}
 .slabel{font-family:'Rajdhani',sans-serif;font-size:.62rem;font-weight:700;letter-spacing:5px;text-transform:uppercase;color:var(--rust);margin-bottom:10px}
-.stitle{font-family:'Bebas Neue',sans-serif;font-size:clamp(2rem,5vw,3.4rem);letter-spacing:2px;color:#fff;line-height:1}
-.sdesc{color:var(--concrete);font-size:.92rem;font-weight:300;line-height:1.85;max-width:540px;margin-top:14px}
+.stitle{font-family:'Bebas Neue',sans-serif;font-size:clamp(2rem,5vw,3.4rem);letter-spacing:2px;color:#000;line-height:1}
+.sdesc{color:#333;;font-size:.92rem;font-weight:300;line-height:1.85;max-width:540px;margin-top:14px}
 
 /* GALLERY */
-#gallery{background:var(--ink)}
+#gallery{
+  background:#ffffff;
+  color:#000;
+}
 .g-head{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:16px;margin-bottom:40px}
 .g-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:3px}
 .g-item{position:relative;overflow:hidden;aspect-ratio:1;cursor:pointer;background:var(--panel)}
@@ -76,7 +90,9 @@ section{padding:86px 5%}
 .g-item:hover .g-lbl{opacity:1}
 
 /* PRODUCTS */
-#products{background:#0c1420}
+#products{
+  background:#f4f9ff;
+}
 .pfilt{display:flex;gap:6px;flex-wrap:wrap;margin:28px 0 40px}
 .fb{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;padding:8px 16px;border:1px solid rgba(255,255,255,.13);color:var(--concrete);background:transparent;cursor:pointer;transition:all .2s}
 .fb.on,.fb:hover{background:var(--rust);border-color:var(--rust);color:#fff}
@@ -153,7 +169,10 @@ section{padding:86px 5%}
 .tctext{font-size:.8rem;color:var(--concrete);line-height:1.7;font-weight:300}
 
 /* CONTACT */
-#contact{background:var(--ink)}
+#contact{
+  background:#ffffff;
+  color:#000;
+}
 .cgrid{display:grid;grid-template-columns:1fr 1fr;gap:60px;margin-top:52px}
 .cmeths{display:flex;flex-direction:column;gap:24px}
 .cmeth{display:flex;gap:16px}
