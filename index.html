@@ -71,7 +71,16 @@ h1 .a2{color:var(--rust);display:block}
 /* SECTIONS */
 section{padding:86px 5%}
 .slabel{font-family:'Rajdhani',sans-serif;font-size:.62rem;font-weight:700;letter-spacing:5px;text-transform:uppercase;color:var(--rust);margin-bottom:10px}
-.stitle{font-family:'Bebas Neue',sans-serif;font-size:clamp(2rem,5vw,3.4rem);letter-spacing:2px;color:#000;line-height:1}
+.stitle{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(2rem,5vw,3.4rem);
+  letter-spacing:2px;
+  color:#0a1a2f; /* dark blue */
+  line-height:1
+}
+.sdesc{
+  color:#0a1a2f; /* dark blue */
+}
 .sdesc{color:#333;;font-size:.92rem;font-weight:300;line-height:1.85;max-width:540px;margin-top:14px}
 
 /* GALLERY */
@@ -180,8 +189,9 @@ section{padding:86px 5%}
 .clabel{font-size:.58rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-weight:700;font-family:'Rajdhani',sans-serif;margin-bottom:5px}
 .cval{font-size:.95rem;color:#000;font-weight:700}
 .cval a{
-  color:#007BFF;   /* blue color */
-  font-weight:700; /* bold */
+  color:#0a1a2f;   /* dark blue */
+  font-weight:700;
+  opacity:1;       /* remove transparency */
   transition:color .2s;
 }
 .cval a:hover{
@@ -237,6 +247,12 @@ footer{background:#050810;padding:52px 5% 26px;border-top:2px solid var(--rust)}
 /* RESPONSIVE */
 @media(max-width:900px){nav ul,.fgrid{display:none!important}.ham{display:flex}.fgrid{display:grid!important;grid-template-columns:1fr 1fr;gap:28px}.wgrid,.cgrid,.mbody,.tcgrid{grid-template-columns:1fr}.mleft{border-right:none;border-bottom:1px solid rgba(255,255,255,.05)}.hkpis{grid-template-columns:repeat(2,1fr);gap:14px}.g-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.pgrid{grid-template-columns:1fr}.fgrid{grid-template-columns:1fr!important}.g-grid{grid-template-columns:1fr}.cf-row2{grid-template-columns:1fr}}
+/* FIX phone number color */
+.cval a{
+  color:#0a1a2f !important;
+  font-weight:700 !important;
+  opacity:1 !important;
+}
 </style>
 </head>
 <body>
@@ -280,8 +296,7 @@ footer{background:#050810;padding:52px 5% 26px;border-top:2px solid var(--rust)}
 <a href="https://wa.me/917671050512" target="_blank" class="btn-g">💬 WhatsApp 76710 50512</a>    </div>
     <div class="hkpis">
       <div><div class="kn">500+</div><div class="kl">Units Delivered</div></div>
-      <div><div class="kn">7</div><div class="kl">Days Delivery</div></div>
-      <div><div class="kn">1 Yr</div><div class="kl">Warranty</div></div>
+       <div><div class="kn">Custom</div><div class="kl">Cabins & Containers</div></div>      <div><div class="kn">1 Yr</div><div class="kl">Warranty</div></div>
       <div><div class="kn">PAN</div><div class="kl">India Service</div></div>
     </div>
   </div>
@@ -289,7 +304,7 @@ footer{background:#050810;padding:52px 5% 26px;border-top:2px solid var(--rust)}
 
 <!-- TICKER -->
 <div class="tick-bar">
-  <div class="tick-in">◆ PORTABLE TOILET CABINS &nbsp;&nbsp; ◆ SHOP CABINS &nbsp;&nbsp; ◆ FARM CABINS &nbsp;&nbsp; ◆ TEA &amp; CAFÉ CABINS &nbsp;&nbsp; ◆ SITE OFFICES &nbsp;&nbsp; ◆ ISI MARKED STEEL &nbsp;&nbsp; ◆ 50MM GLASSWOOL INSULATION &nbsp;&nbsp; ◆ EPOXY PAINT FINISH &nbsp;&nbsp; ◆ 7-DAY DELIVERY &nbsp;&nbsp; ◆ PAN INDIA &nbsp;&nbsp;&nbsp;&nbsp;◆ PORTABLE TOILET CABINS &nbsp;&nbsp; ◆ SHOP CABINS &nbsp;&nbsp; ◆ FARM CABINS &nbsp;&nbsp; ◆ TEA &amp; CAFÉ CABINS &nbsp;&nbsp; ◆ SITE OFFICES &nbsp;&nbsp; ◆ ISI MARKED STEEL &nbsp;&nbsp; ◆ 50MM GLASSWOOL INSULATION &nbsp;&nbsp; ◆ EPOXY PAINT FINISH &nbsp;&nbsp; ◆ 7-DAY DELIVERY &nbsp;&nbsp; ◆ PAN INDIA &nbsp;&nbsp;&nbsp;&nbsp;</div>
+  <div class="tick-in">◆ PORTABLE TOILET CABINS &nbsp;&nbsp; ◆ SHOP CABINS &nbsp;&nbsp; ◆ FARM CABINS &nbsp;&nbsp; ◆ TEA &amp; CAFÉ CABINS &nbsp;&nbsp; ◆ SITE OFFICES &nbsp;&nbsp; ◆ ISI MARKED STEEL &nbsp;&nbsp; ◆ 50MM GLASSWOOL INSULATION &nbsp;&nbsp; ◆ EPOXY PAINT FINISH &nbsp;&nbsp; ◆ CUSTOMIZED CABINS & CONTAINERS &nbsp;&nbsp; ◆ PAN INDIA &nbsp;&nbsp;&nbsp;&nbsp;◆ PORTABLE TOILET CABINS &nbsp;&nbsp; ◆ SHOP CABINS &nbsp;&nbsp; ◆ FARM CABINS &nbsp;&nbsp; ◆ TEA &amp; CAFÉ CABINS &nbsp;&nbsp; ◆ SITE OFFICES &nbsp;&nbsp; ◆ ISI MARKED STEEL &nbsp;&nbsp; ◆ 50MM GLASSWOOL INSULATION &nbsp;&nbsp; ◆ EPOXY PAINT FINISH &nbsp;&nbsp; ◆ 7-DAY DELIVERY &nbsp;&nbsp; ◆ PAN INDIA &nbsp;&nbsp;&nbsp;&nbsp;</div>
 </div>
 
 <!-- GALLERY -->
@@ -398,7 +413,7 @@ footer{background:#050810;padding:52px 5% 26px;border-top:2px solid var(--rust)}
           <li>50% advance with PO, balance before dispatch</li>
           <li>Transportation extra at actual cost</li>
           <li>Unloading at site by client</li>
-          <li>7 working days delivery after confirmation</li>
+          <li>Customized cabins and containers available as per requirement</li>
           <li>Quote valid for 45 days</li>
           <li>1 Year structural warranty (excl. door &amp; window leakage)</li>
         </ul>
@@ -474,7 +489,7 @@ footer{background:#050810;padding:52px 5% 26px;border-top:2px solid var(--rust)}
   <div class="cgrid">
     <div>
       <div class="cmeths">
-        <div class="cmeth rvl"><div class="cico">📞</div><div><div class="clabel">Call / WhatsApp</div><div class="cval"><a href="tel:+918688726052">+91 86887 26052</a></div><div class="cval" style="font-size:.85rem;font-weight:300;color:var(--concrete);margin-top:3px"><a href="tel:+917671050512" style="color:var(--concrete)">+91 76710 50512</a></div></div></div>
+        <div class="cmeth rvl"><div class="cico">📞</div><div><div class="clabel">Call / WhatsApp</div><div class="cval"><a href="tel:+918688726052">+91 86887 26052</a></div><div class="cval" style="margin-top:3px"><a href="tel:+917671050512">+91 76710 50512</a></div>
         <div class="cmeth rvl"><div class="cico" style="background:var(--gold)">✉️</div><div><div class="clabel">Email</div><div class="cval"><a href="mailto:pzmeerindustries@gmail.com">pzmeerindustries@gmail.com</a></div></div></div>
         <div class="cmeth rvl"><div class="cico" style="background:#2a8c6e">📍</div><div><div class="clabel">Factory Address</div><div class="cval" style="font-size:.88rem;line-height:1.65">Sy No. 193/F, 194(P), Gagillapur Village,<br/>Dundigal, Gandimaisamma Mandal,<br/>Medchal Malkajgiri Dist.,<br/>Hyderabad, Telangana – 500043<br/><span style="color:var(--concrete);font-weight:300;font-size:.78rem">(Near Tata Hitachi Company)</span></div></div></div>
         <div class="cmeth rvl"><div class="cico" style="background:#3a3a8e">🕐</div><div><div class="clabel">Business Hours</div><div class="cval">Monday – Saturday: 9 AM – 7 PM</div></div></div>
